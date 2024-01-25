@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/books-bg.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "table with books";
 
 /**
  * Project list
@@ -31,28 +31,21 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Restaurant website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Designed and developed a captivating restaurant website using HTML, CSS, JavaScript, Bootstrap, and Ajax. Crafted user-friendly sections enabling visitors to explore diverse menu items and discover special offerings . ",
+    url: "https://dubey0613.github.io/Restaurant-web/index.html",
   },
   {
-    title: "Web Development for Beginners",
+    title: "ProgressHub",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A web application designed to empower users in tracking their progress across Competitive Programming platforms.",
+    url: "https://github.com/dubey0613/ProgressHub",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Leads Tracker",
+    description: "Providing users with an intuitive and user-friendly interface.",
+    url: "https://github.com/dubey0613/chrome-extension",
   },
 ];
 

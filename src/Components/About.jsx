@@ -10,34 +10,27 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/coffee.avif";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "a coffee cup on a table";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm an Enthusiastic web developer with a keen eye for design and innovation. Proficient in JavaScript, ReactJS, Bootstrap, Node.js, Tailwind and MongoDB.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+const skillsList = ["Web development", "ReactJS", "JavaScript", "Tailwind", "NextJS", "Mern Stack"];
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -45,7 +38,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Apart from my web development skills, I am also eager to learn about cloud computing and its applications in the real world. My interest in the field of AI and ML has driven me to pursue a career that involves cutting-edge technologies and innovation. My goal is to leverage my skills and knowledge to create innovative solutions that can solve real-world problems. I believe in continuous learning, and I am always on the lookout for opportunities to grow and expand my skill set.";
 
 const About = () => {
   return (
